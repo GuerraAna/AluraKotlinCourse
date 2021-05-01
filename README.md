@@ -1,6 +1,6 @@
 ## Curso de Kotlin da Alura
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.cuponeria.com.br%2Fdesconto-alura-veja-como-ganhar-desconto-em-todos-os-planos-da-alura-cursos%2F&psig=AOvVaw1NRBgIPLFwe9zpnGtJPtga&ust=1619935581955000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjFmLrop_ACFQAAAAAdAAAAABAD
+![image](https://user-images.githubusercontent.com/78937585/116773235-a942ae80-aa2a-11eb-8c35-a4b9ed0254bc.png)
 
 
 ### Introdução:
