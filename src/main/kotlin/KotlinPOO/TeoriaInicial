@@ -1,0 +1,18 @@
+Programação Procedural: . Códigos difícieis de representar a vida real;
+                        . Cria variáveis do início ao fim;
+                        . Difícil compreensão caso não conheça o código.
+                        . Dfícil manutenção e estruturação.
+
+Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
+                                 . Código mais estruturardo / organizado;
+                                 . Mais fácil de compreender;
+
+          - Objeto: Representação dos objetos reais no mundo virtual;
+          - Classes: . As classes podem ser criadas em nível de Arquivo (fora da função);
+                     . As classes podem ser criaradas dentro das funções, mas, dessa forma,
+          - Métodos (funções):
+          - Polimorfismo:
+          - Abstração:
+          - Herança:
+          - Data Class:
+          - Enum Class:

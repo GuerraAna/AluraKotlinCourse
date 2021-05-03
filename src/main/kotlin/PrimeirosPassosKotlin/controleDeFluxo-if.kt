@@ -1,3 +1,5 @@
+package PrimeirosPassosKotlin
+
 fun main() {
     println("Bem vindo ao Bytebank")
     val titular: String = "Ana"

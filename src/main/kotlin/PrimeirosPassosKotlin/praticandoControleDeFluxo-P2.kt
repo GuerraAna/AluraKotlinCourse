@@ -1,9 +1,15 @@
+package PrimeirosPassosKotlin
+
 fun main() {
     println("Entre com um valor:")
     val entrada = readLine()!!.toInt()
+    forCrescente(entrada)
+    forDecrescente(entrada)
+    forStep(entrada)
+}
 
-    // Loop em ordem crescente.
-    for (i in 1..entrada){
+fun forCrescente(entrada: Int) {
+    for (i in 1..entrada) {
         val valor = "$i"
         val nota = "A ana é nota $i"
 
@@ -11,8 +17,9 @@ fun main() {
         println(nota)
         println()
     }
+}
 
-    // Loop em ordem descrescente.
+fun forDecrescente(entrada: Int){
     for (j in entrada downTo 1){
         val valor = "$j"
         val nota = "A ana é nota $j"
@@ -21,8 +28,9 @@ fun main() {
         println(nota)
         println()
     }
+}
 
-    // Utilização do Loop com step.
+fun forStep(entrada: Int){
     for (w in entrada..10 step 2){
         val pares = "$w"
         println(pares)

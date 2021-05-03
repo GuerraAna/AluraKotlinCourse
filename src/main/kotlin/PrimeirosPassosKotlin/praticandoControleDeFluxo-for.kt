@@ -1,10 +1,15 @@
-fun main() {
-    println("Insira o primeiro valor:")
-    var inteiro: Int = readLine()!!.toInt()
-    println("Insira o segundo valor:")
-    var double: Double = readLine()!!.toDouble()
+package PrimeirosPassosKotlin
 
-    var x = soma(inteiro, double)
+fun main() {
+   praticandoControleF1()
+}
+fun praticandoControleF1(){
+    println("Insira o primeiro valor:")
+    val inteiro: Int = readLine()!!.toInt()
+    println("Insira o segundo valor:")
+    val double: Double = readLine()!!.toDouble()
+
+    val x = soma(inteiro, double)
     if(x > 0) {
         println("O número é positivo.")
     }else if(x == 0) {

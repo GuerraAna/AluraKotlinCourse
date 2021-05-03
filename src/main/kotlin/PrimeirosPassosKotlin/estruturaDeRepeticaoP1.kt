@@ -1,8 +1,11 @@
+package PrimeirosPassosKotlin
+
 fun main() {
-    var saldo: Double = 2.0
+    val saldo: Double = 2.0
+    testaCondicoes1(saldo)
 }
 
-fun testaCondicoes(saldo: Double) {
+fun testaCondicoes1(saldo: Double) {
     if(saldo > 0.0) {
         println("O saldo será positivo.")
     }else if (saldo == 0.0) {

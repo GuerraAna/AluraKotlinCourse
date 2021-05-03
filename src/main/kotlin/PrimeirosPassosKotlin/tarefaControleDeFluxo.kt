@@ -1,3 +1,5 @@
+package PrimeirosPassosKotlin
+
 fun main () {
     testeCondicoes()
 }

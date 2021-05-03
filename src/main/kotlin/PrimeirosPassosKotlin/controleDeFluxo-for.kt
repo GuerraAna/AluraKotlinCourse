@@ -1,5 +1,11 @@
+package PrimeirosPassosKotlin
+
 fun main() {
-    var saldo: Double = 2.0
+    testaCondicoes()
+}
+
+fun testaCondicoes(){
+    val saldo: Double = 2.0
     testaCondicoes2(saldo)
 
     var contador: Int = 0
@@ -15,7 +21,6 @@ fun main() {
     }
     println(testaCondicoes2(saldo))
 }
-
 fun testaCondicoes2(saldo: Double) {
     if(saldo > 0.0) {
         println("O saldo será positivo.")

@@ -1,4 +1,9 @@
+package PrimeirosPassosKotlin
+
 fun main() {
+    controleDeFluxo()
+}
+fun controleDeFluxo(){
     println("Bem vindo ao Bytebank")
     val titular: String = "Ana"
     val numeroConta: Int = 1000
@@ -22,5 +27,4 @@ fun main() {
             println("A conta é negativa.")
         }
     }
-
 }
