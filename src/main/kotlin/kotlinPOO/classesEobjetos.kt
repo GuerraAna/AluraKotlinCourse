@@ -1,33 +1,27 @@
 package kotlinPOO
 
 fun main() {
-    contaGuerra()
-    contaAna()
+    // Primeira Pessoa.
+    val primeiraPessoa = Conta()
+    primeiraPessoa.titular = "Mario Carlos"
+        println(primeiraPessoa.titular)
+    primeiraPessoa.numero = 202131
+        println(primeiraPessoa.numero)
+    primeiraPessoa.saldo = 20000.0
+        println(primeiraPessoa.saldo)
 
+    // Segunda Pessoa.
+    val segundaPessoa = Conta()
+    segundaPessoa.titular = "Marcelo Alves"
+        println(segundaPessoa.titular)
+    segundaPessoa.numero = 201314
+        println(segundaPessoa.numero)
+    segundaPessoa.saldo = 3021.0
+        println(segundaPessoa.saldo)
 }
 
 class Conta {
-    var titular = ""
-    var numero = 0
-    var saldo = 0.0
-}
-
-fun contaAna() {
-    val contaAna = Conta()
-    contaAna.titular = "Ana"
-        println(contaAna.titular)
-    contaAna.numero = 27
-        println(contaAna.numero)
-    contaAna.saldo = 10002.0
-        println(contaAna.saldo)
-}
-
-fun contaGuerra() {
-    val contaGuerra = Conta()
-    contaGuerra.titular = "Guerra"
-        println(contaGuerra.titular)
-    contaGuerra.numero = 4
-        println(contaGuerra.numero)
-    contaGuerra.saldo = 200.0
-        println(contaGuerra.saldo)
+    var titular: String = ""
+    var numero: Int = 0
+    var saldo: Double = 0.0
 }

@@ -4,19 +4,24 @@ package kotlinPOO
 fun main() {
     val nome = ContaBancaria()
     nome.titular = "Ana Guerra POO"
-
+        println(nome.titular)
     nome.conta =  2123
-
+        println(nome.conta)
     nome.saldo = 2000.0
-        println("Depósito na conta da Ana.")
+
+        // Saldo atual:
+            println("Saldo da conta de Ana.")
+            println(nome.saldo)
 
         // Depósito:
+            println("Depósito na conta da Ana.")
         nome.depositar(20.0)
-        println(nome.saldo)
+            println(nome.saldo)
 
         // Saque:
+            println("Saque da conta da Ana.")
         nome.sacar(10.0)
-        println(nome.saldo)
+            println(nome.saldo)
 
         // Transferir:
 

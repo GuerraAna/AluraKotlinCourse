@@ -9,6 +9,6 @@ fun testaCopiasEReferencias() {
     val numeroDouble = 20.0
 
     numeroInteiro = numeroDouble.toInt()
-    println(numeroInteiro)
-    println()
+        println(numeroInteiro)
+        println()
 }
