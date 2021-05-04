@@ -1,6 +1,6 @@
-package KotlinPOO
+package kotlinPOO
 
-fun main(){
+fun main() {
     val primeiroNumero = 10
     var segundoNumero = primeiroNumero
     segundoNumero++

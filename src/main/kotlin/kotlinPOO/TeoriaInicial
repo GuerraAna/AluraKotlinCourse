@@ -9,7 +9,7 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
 
           - Objeto: Representação dos objetos reais no mundo virtual;
           - Classes: . As classes podem ser criadas em nível de Arquivo (fora da função);
-                     . As classes podem ser criaradas dentro das funções, mas, dessa forma,
+                     . As classes podem ser criaradas dentro das funções, mas, dessa forma.
           - Métodos (funções):
           - Polimorfismo:
           - Abstração:
