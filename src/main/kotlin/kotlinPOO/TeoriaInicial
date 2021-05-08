@@ -15,6 +15,7 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                      . Em POO a classe que tem que alterar o seu valor e não uma função fora dela, como é feito no contaAna.kt
                      . Em POO a classe contém o método e este método é chamado na main pelo objeto que invoca a classe;
                      . Na classe, o this é usado para identificar que a manipulação dos dados em um método é feito naquele objeto;
+                     . A utilização do this serve para identificar o objeto correspondente que dará valor á propriedade da classe.
 
           - funções: . Dão funcionalidade/Ações/Funções para as classes;
                                . Podendo criar funções de operações matemáticas;
