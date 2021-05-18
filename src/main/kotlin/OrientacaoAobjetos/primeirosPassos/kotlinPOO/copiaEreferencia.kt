@@ -1,5 +1,7 @@
 package kotlinPOO
 
+import OrientacaoAobjetos.primeirosPassos.kotlinPOO.Conta
+
 fun main() {
     val primeiroNumero = 10
     var segundoNumero = primeiroNumero

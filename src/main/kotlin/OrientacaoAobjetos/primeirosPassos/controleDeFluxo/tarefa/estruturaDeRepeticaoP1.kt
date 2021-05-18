@@ -1,4 +1,4 @@
-package PrimeirosPassosKotlin
+package OrientacaoAobjetos.PrimeirosPassosKotlin
 
 fun main() {
     val saldo: Double = 2.0

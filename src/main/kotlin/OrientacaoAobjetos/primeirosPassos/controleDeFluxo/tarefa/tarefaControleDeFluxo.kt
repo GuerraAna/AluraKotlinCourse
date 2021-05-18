@@ -1,4 +1,4 @@
-package PrimeirosPassosKotlin
+package OrientacaoAobjetos.PrimeirosPassosKotlin
 
 fun main () {
     testeCondicoes()

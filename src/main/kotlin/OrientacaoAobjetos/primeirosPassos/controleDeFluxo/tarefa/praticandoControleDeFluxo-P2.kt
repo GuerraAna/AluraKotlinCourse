@@ -1,4 +1,4 @@
-package PrimeirosPassosKotlin
+package OrientacaoAobjetos.PrimeirosPassosKotlin
 
 fun main() {
     println("Entre com um valor:")

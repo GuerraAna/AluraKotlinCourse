@@ -1,4 +1,4 @@
-package kotlinPOO
+package OrientacaoAobjetos.primeirosPassos.kotlinPOO
 
 // Códigos que seguem POO
 fun main() {
