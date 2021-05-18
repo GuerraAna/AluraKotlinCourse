@@ -21,6 +21,17 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                                . Podendo criar funções de operações matemáticas;
                                . Podendo criar funções que represente qualque tipo de ação;
                                . Em POO as funções internas às classes são chamadas de membros (comportamentos);
+
+          - Encapsulamento com Getter e Setter: . Encapsulamento: São modificadores de acesso que permitem ou não acesso a conta;
+                                                        1. private em objetos;
+                                                        2. protected em classes.
+                                                . Para acessar um dado, devemos copiá-lo e ai utiliza-se o get ou setter:
+                                                            1. Get:
+                                                            2. Setter:
+                                                        . Estão relacionados à boas práticas de programação;
+                                                        . Estão relacionados ao paradígma de orientação a objetos;
+                                                        . Utilizados como pontos de melhoria no código.
+
           - Polimorfismo:
 
           - Abstração:
