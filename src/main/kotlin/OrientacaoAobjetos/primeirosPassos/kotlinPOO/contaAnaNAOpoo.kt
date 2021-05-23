@@ -26,9 +26,9 @@ class Cadastro {
     var saldoCadastro: Double = 0.0
 
     fun depositar(valor: Double){
-        this.saldoCadastro += valor
+        saldoCadastro += valor
     }
     fun sacar(valor: Double){
-        this.saldoCadastro -= valor
+        saldoCadastro -= valor
     }
 }
