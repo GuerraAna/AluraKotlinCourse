@@ -62,12 +62,12 @@ class ContaBancaria {
     var saldo: Double = 0.0
 
     fun sacar(valor: Double) {
-        if(this.saldo >= valor) {
+        if(saldo >= valor) {
             saldo -= valor
         }
     }
     fun depositar(valor: Double) {
-        this.saldo += valor
+        saldo += valor
     }
     fun transferir(valor: Double, destino: ContaBancaria): Boolean {
         if(saldo >= valor) {

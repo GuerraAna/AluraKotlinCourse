@@ -28,10 +28,10 @@ class Dados{
     var carteira: Double = 0.0
 
     fun maisDinheiro(real: Double) {
-        this.carteira += real
+        carteira += real
     }
     fun menosDinheito(dinheiro: Double) {
-        this.carteira -= dinheiro
+        carteira -= dinheiro
     }
 }
 

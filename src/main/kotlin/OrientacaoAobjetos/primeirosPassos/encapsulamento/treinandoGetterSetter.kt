@@ -34,15 +34,15 @@ class Alguem() {
     private var saldo: Double = 0.0
 
     fun depositar(valor: Double) {
-            saldo += valor
+            this.saldo += valor
     }
     fun sacar(valor: Double) {
-        if (saldo >= valor) {
+        if (this.saldo >= valor) {
             saldo -= valor
         }
     }
     fun transferencia(valor: Double, destino: Alguem){
-        if (saldo >= valor) {
+        if (this.saldo >= valor) {
             saldo -= valor
             destino.depositar(valor)
         }
