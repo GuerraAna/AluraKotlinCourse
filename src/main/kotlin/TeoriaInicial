@@ -7,9 +7,9 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                                  . Código mais estruturardo / organizado;
                                  . Mais fácil de compreender.
 
-          - Objeto: Representação dos objetos reais no mundo virtual.
+          * Objeto: Representação dos objetos reais no mundo virtual.
 
-          - Classes: . As classes podem ser criadas em nível de Arquivo (fora da função);
+          * Classes: . As classes podem ser criadas em nível de Arquivo (fora da função);
                      . As classes podem ser criaradas dentro das funções, mas, dessa forma;
                      . As classes elas têm que ter os seus métodos dentro delas! Ou seja, a Classe tem que saber o que aquilo representa;
                      . Em POO a classe que tem que alterar o seu valor e não uma função fora dela, como é feito no contaAna.kt
@@ -21,12 +21,12 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                     2) Construtor Primário;
                     3) Construtor Secundário (this).
 
-          - Funções: . Dão funcionalidade/Ações/Funções para as classes;
+          * Funções: . Dão funcionalidade/Ações/Funções para as classes;
                      . Podendo criar funções de operações matemáticas;
                      . Podendo criar funções que represente qualque tipo de ação;
                      . Em POO as funções internas às classes são chamadas de membros (comportamentos);
 
-          - Encapsulamento:
+          * Encapsulamento:
                                1) Getter e Setter: . Encapsulamento: São modificadores de acesso que permitem ou não acesso a conta;
                                                         1. private em objetos;
                                                         2. protected em classes.
@@ -44,12 +44,16 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                                                 . O field precisa da indicação de qual membro da classe irá receber as properties getter e setter;
 
 
-          - Polimorfismo:
+          * Herança: . Objetivo: fazer um código mais consistente;
+                     . Dica: Criar arquivos separados para melhor representar a herança;
+                     .
 
-          - Abstração:
+          * Polimorfismo:
 
-          - Herança:
+          * Interface:
 
-          - Data Class:
+          * Abstração:
 
-          - Enum Class:
+          * Data Class:
+
+          * Enum Class:
