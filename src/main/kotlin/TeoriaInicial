@@ -19,7 +19,8 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
 
                     1) Init (this);
                     2) Construtor Primário;
-                    3) Construtor Secundário (this).
+                    3) Construtor Secundário (this);
+                    4) Labels.
 
           - Funções: . Dão funcionalidade/Ações/Funções para as classes;
                      . Podendo criar funções de operações matemáticas;

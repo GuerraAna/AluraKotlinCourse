@@ -17,6 +17,10 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                      . Na classe, o this é usado para identificar que a manipulação dos dados em um método é feito naquele objeto;
                      . A utilização do this serve para identificar o objeto correspondente que dará valor á propriedade da classe.
 
+                    1) Init (this);
+                    2) Construtor Primário;
+                    3) Construtor Secundário (this).
+
           - Funções: . Dão funcionalidade/Ações/Funções para as classes;
                      . Podendo criar funções de operações matemáticas;
                      . Podendo criar funções que represente qualque tipo de ação;
@@ -34,6 +38,7 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                                                             . Utilizados como pontos de melhoria no código.
 
                                2) Properties:   . Substitui o Getter e Setter;
+                                                . O Propertie é a entrada do cliente na class pela fun main();
                                                 . É uma variável que sempre tem acesso a um Getter e Setter próprio;
                                                 . O field é o valor inicial, aquele que está interno, como padrão na class;
                                                 . O field precisa da indicação de qual membro da classe irá receber as properties getter e setter;
