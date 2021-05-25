@@ -52,9 +52,11 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
                      2) Override val: pode ser utilizada para substituir uma override fun.
 
                         Obs.: O override possui o contexto de super
-          * Polimorfismo:
 
-          * Interface:
+          * Polimorfismo: . Evitar a implementação constante;
+                          . Trabalhar com polimorfismo é trabalhar com herança;
+
+          * Interface: .
 
           * Abstração:
 
