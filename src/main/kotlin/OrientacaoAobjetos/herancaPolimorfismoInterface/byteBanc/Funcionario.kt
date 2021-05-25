@@ -1,11 +1,11 @@
 package OrientacaoAobjetos.herancaPolimorfismoInterface.byteBanc
 
-class Funcionario(
+open class Funcionario(
     val nome: String,
     val cpf: String,
     val salario: Double,
     ) {
-    fun bonificacaoF(): Double {
+    open fun bonificacao(): Double {
         return salario * 1.0
     }
 }

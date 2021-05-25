@@ -46,8 +46,12 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
 
           * Herança: . Objetivo: fazer um código mais consistente;
                      . Dica: Criar arquivos separados para melhor representar a herança;
-                     .
+                     . Quando utilizar? Quando há códigos em comum entre as classes;
 
+                     1) Override fun: sobrecrita de métodos de uma open fun;
+                     2) Override val: pode ser utilizada para substituir uma override fun.
+
+                        Obs.: O override possui o contexto de super
           * Polimorfismo:
 
           * Interface:

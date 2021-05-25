@@ -46,6 +46,7 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
 
           * Herança: . Objetivo: fazer um código mais consistente;
                      . Dica: Criar arquivos separados para melhor representar a herança;
+                     . Quando utilizar? Quando há códigos em comum entre as classes;
                      .
 
           * Polimorfismo:
