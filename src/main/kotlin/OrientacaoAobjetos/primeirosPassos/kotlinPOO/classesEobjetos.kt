@@ -1,5 +1,7 @@
 package OrientacaoAobjetos.primeirosPassos.kotlinPOO
 
+import OrientacaoAobjetos.herancaPolimorfismoInterface.basica.Perfil
+
 fun main() {
     // Primeira Pessoa.
     val primeiraPessoa = Conta()
@@ -20,8 +22,25 @@ fun main() {
         println(segundaPessoa.saldo)
 }
 
-class Conta {
-    var titular: String = ""
-    var numero: Int = 0
+open class Conta(
+    var titular: String = "",
+    var numero: Int = 0,
     var saldo: Double = 0.0
+){
+    fun deposito(valor: Double) {
+        if (valor > 0) {
+            saldo += valor
+        }
+    }
+    open fun saque(valor: Double) {
+            if (saldo >= valor) {
+            saldo -= valor
+            }
+    }
+    fun transacao(valor: Double, destino: Perfil) {
+        if (saldo >= valor) {
+            saldo -= valor
+            destino.deposito(valor)
+        }
+    }
 }

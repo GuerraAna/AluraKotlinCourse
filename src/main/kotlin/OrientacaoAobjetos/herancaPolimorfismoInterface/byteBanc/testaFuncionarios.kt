@@ -1,5 +1,9 @@
 package OrientacaoAobjetos.herancaPolimorfismoInterface.byteBanc
 
+fun main() {
+    testaFuncionarios()
+}
+
 fun testaFuncionarios(){
     //Primeiro Funcionário.
     val ana = Funcionario(
