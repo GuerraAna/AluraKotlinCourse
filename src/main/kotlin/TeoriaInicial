@@ -58,7 +58,15 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
 
           * Interface: .
 
-          * Abstração:
+          * Abstração: . É o conceito principal de uma classe;
+                       . No exemplo, funcionário é uma classe abstrata porque é a partir
+                       dele que sairá os tipos de funcionários diferentes.
+
+                       1) Membros Abstratos: . Ocorre quando há uma necessidade de implementar, de formas diferentes, várias vezes
+                                               o mesmo código;
+                                             . No exemplo citado, um membro abstrato é a bonificação;
+                                             . O membro abstrato tem que estar dentro de uma classe abstrata.
+
 
           * Data Class:
 
