@@ -48,7 +48,7 @@ fun testaFuncionarios(){
     println("Senha: ${carlos.senha}")
     println("Plr: ${carlos.plr}")
 
-    if (carlos.autenticar(senha = 2435)) {
+    if (carlos.autentica(senha = 2435)) {
         println("Autenticação válida")
     } else {
         println("Autenticação inválida")

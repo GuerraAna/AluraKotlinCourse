@@ -47,13 +47,26 @@ Programação Orientada ao Objeto: . Trazer o mundo real para o virtual;
           * Herança: . Objetivo: fazer um código mais consistente;
                      . Dica: Criar arquivos separados para melhor representar a herança;
                      . Quando utilizar? Quando há códigos em comum entre as classes;
-                     .
 
-          * Polimorfismo:
+                     1) Override fun: sobrecrita de métodos de uma open fun;
+                     2) Override val: pode ser utilizada para substituir uma override fun.
 
-          * Interface:
+                        Obs.: O override possui o contexto de super
 
-          * Abstração:
+          * Polimorfismo: . Evitar a implementação constante;
+                          . Trabalhar com polimorfismo é trabalhar com herança;
+
+
+          * Abstração: . É o conceito principal de uma classe;
+                       . No exemplo, funcionário é uma classe abstrata porque é a partir
+                       dele que sairá os tipos de funcionários diferentes.
+
+                       1) Membros Abstratos: . Ocorre quando há uma necessidade de implementar, de formas diferentes, várias vezes
+                                               o mesmo código;
+                                             . No exemplo citado, um membro abstrato é a bonificação;
+                                             . O membro abstrato tem que estar dentro de uma classe abstrata.
+
+          * Interface: .
 
           * Data Class:
 

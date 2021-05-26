@@ -1,5 +1,5 @@
 package OrientacaoAobjetos.herancaPolimorfismoInterface.byteBanc
 
-fun main() {
-    testaAutenticacao()
+interface Autenticavel {
+    fun autentica(senha: Int): Boolean
 }
